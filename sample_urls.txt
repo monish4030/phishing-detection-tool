@@ -1,0 +1,91 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║         PHISHING DETECTION TOOL — SAMPLE TEST URLS           ║
+# ║                Made by Monish Paramasivam                    ║
+# ╚══════════════════════════════════════════════════════════════╝
+#
+# Use these URLs to test the Phishing Detection Tool.
+# Run: python main.py → Option [1] or [2] (batch)
+#
+# Lines starting with # are comments. Blank lines are ignored.
+# ─────────────────────────────────────────────────────────────────
+
+# ════════════════════════════════
+#  ✅  SAFE / LEGITIMATE URLs
+# ════════════════════════════════
+
+# Well-known global platforms
+https://google.com
+https://github.com
+https://microsoft.com
+https://apple.com
+https://amazon.com
+https://stackoverflow.com
+https://wikipedia.org
+https://linkedin.com
+https://youtube.com
+
+# ════════════════════════════════
+#  ⚠️  MEDIUM RISK URLs
+# ════════════════════════════════
+
+# URL shorteners (destination unknown)
+http://bit.ly/secure-account-offer
+http://tinyurl.com/verify-your-account
+
+# Slightly suspicious but might be legit
+http://login.mybank.example.com
+http://mail.newstartup.info
+
+# ════════════════════════════════
+#  🚨  HIGH RISK / PHISHING URLs
+# ════════════════════════════════
+
+# Typosquatting (character substitution)
+http://paypa1.com/secure/login
+http://g00gle.com/account/verify
+http://faceb00k-login.net/signin
+
+# Keyword stuffing + suspicious TLD
+http://secure-login-verify-account-update.xyz
+http://amazon-prime-billing-update.info/login
+http://netflix-account-suspended-verify.top
+
+# Brand impersonation via subdomain abuse
+http://paypal.com.secure-login.net/verify
+https://microsoft.com.account-login.xyz
+https://apple-id.verify.secure-update.ru
+
+# Raw IP address (never legitimate for brands)
+http://192.168.1.254/bank/signin/confirm
+http://10.0.0.1/paypal/login/verify
+
+# Excessive hyphens + deep path
+http://secure-account-billing-payment-update.com/user/login/verify/confirm/reset
+
+# Homograph + suspicious TLD combo
+http://arnazon-secure.xyz/checkout/payment
+http://rnicrosof t-update.info/windows/activate
+
+# Known phishing patterns from blacklist
+http://paypa1-secure.com/signin
+http://amazon-login-verify.xyz/checkout
+http://netflix-billing-update.com/account
+
+# ════════════════════════════════
+#  🔬  EDGE CASES (for testing)
+# ════════════════════════════════
+
+# No scheme (tool should handle this)
+google.com
+github.com/login
+
+# Long legitimate URL
+https://www.amazon.com/s?k=laptop&i=electronics&bbn=565108
+
+# HTTPS but suspicious path
+https://suspicious-domain.xyz/account/login/verify/update/confirm
+
+# ─────────────────────────────────────────────────────────────────
+# NOTE: All phishing URLs above are fabricated for educational
+# demonstration only. Do not visit unknown URLs from untrusted sources.
+# Made by Monish Paramasivam | For ethical & educational use only.

@@ -1,0 +1,38 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║         PHISHING DETECTION TOOL - REQUIREMENTS               ║
+# ║                Made by Monish Paramasivam                    ║
+# ╚══════════════════════════════════════════════════════════════╝
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Python version: 3.8+
+
+# ── Core Dependencies ─────────────────────────────────────────────
+# HTTP requests for fetching URLs
+requests>=2.28.0
+
+# WHOIS domain lookup
+python-whois>=0.8.0
+
+# ── Machine Learning ──────────────────────────────────────────────
+# ML classifier (Random Forest)
+scikit-learn>=1.1.0
+
+# Numerical computing for ML features
+numpy>=1.23.0
+
+# Model persistence (save/load trained model)
+joblib>=1.2.0
+
+# ── Terminal UI ───────────────────────────────────────────────────
+# Cross-platform colored terminal output
+colorama>=0.4.6
+
+# ── Testing ───────────────────────────────────────────────────────
+# Unit testing framework
+pytest>=7.2.0
+
+# ── Optional (for extended features) ─────────────────────────────
+# DNS lookups (alternative to whois for some checks)
+# dnspython>=2.3.0
