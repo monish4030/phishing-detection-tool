@@ -304,7 +304,7 @@ Contributions are welcome for educational improvements:
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+![License](https://img.shields.io/badge/License-CC%20BY--ND%204.0-red?style=for-the-badge)
 
 ---
 
